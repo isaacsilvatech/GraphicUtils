@@ -11,6 +11,7 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 ## Exemlos
 
 ### Exemplo Simples 1:
+![Imagem](https://github.com/isaacsilvatech/GraphicUtils/assets/145171555/7577036c-7b1f-4800-921d-4ac5668cc5aa)
 ```
     		GraphicSheet sheet = new GraphicSheet();
 		
@@ -55,6 +56,7 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 ```
 
 ### Exemplo Estiloso 1:
+![Imagem2](https://github.com/isaacsilvatech/GraphicUtils/assets/145171555/71ab2263-7e1c-4557-80db-5f2cf37ad2c3)
 ```
     		Font font = new Font("Arial", Font.BOLD, 24);
 
