@@ -12,20 +12,6 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 
 ### Exemplo Simples 1:
 ```
-    		List<Object[]> lista = getList();
-		
-		List<GraphicColumn> colunas = new ArrayList<>();
-
-		colunas.add(new GraphicColumn("Nome", 0, GraphicType.STRING));
-		colunas.add(new GraphicColumn("Idade", 1, GraphicType.INT));
-		colunas.add(new GraphicColumn("Saldo", 2, GraphicType.CURRENCY));
-		
-		GraphicSheet sheet = GraphicUtils.getGraphic(colunas, lista);
-		
-		ImageIO.write(sheet.getImage(), "PNG", new File("C:\\Users\\DEV\\Downloads\\Imagem.PNG"));
-```
-### Exemplo Simples 2:
-```
     		GraphicSheet sheet = new GraphicSheet();
 		
 		GraphicRow row;
@@ -49,6 +35,21 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 		row.createCell(0).setValue("Gabriel");
 		row.createCell(1).setValue("17");
 		row.createCell(2).setValue("R$ 555.25");
+		
+		ImageIO.write(sheet.getImage(), "PNG", new File("C:\\Users\\DEV\\Downloads\\Imagem.PNG"));
+```
+
+### Exemplo Simples 2:
+```
+    		List<Object[]> lista = getList();
+		
+		List<GraphicColumn> colunas = new ArrayList<>();
+
+		colunas.add(new GraphicColumn("Nome", 0, GraphicType.STRING));
+		colunas.add(new GraphicColumn("Idade", 1, GraphicType.INT));
+		colunas.add(new GraphicColumn("Saldo", 2, GraphicType.CURRENCY));
+		
+		GraphicSheet sheet = GraphicUtils.getGraphic(colunas, lista);
 		
 		ImageIO.write(sheet.getImage(), "PNG", new File("C:\\Users\\DEV\\Downloads\\Imagem.PNG"));
 ```
