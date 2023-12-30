@@ -12,7 +12,7 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 
 ### Exemplo Simples 1:
 ```
-    List<Object[]> lista = getList();
+    		List<Object[]> lista = getList();
 		
 		List<GraphicColumn> colunas = new ArrayList<>();
 
@@ -26,7 +26,7 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 ```
 ### Exemplo Simples 2:
 ```
-    GraphicSheet sheet = new GraphicSheet();
+    		GraphicSheet sheet = new GraphicSheet();
 		
 		GraphicRow row;
 		
@@ -55,7 +55,7 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 
 ### Exemplo Estiloso 1:
 ```
-    Font font = new Font("Arial", Font.BOLD, 24);
+    		Font font = new Font("Arial", Font.BOLD, 24);
 
 		// ESTILO - TITULO
 		GraphicStyle titleStyle = new GraphicStyle();
@@ -142,7 +142,7 @@ Uma biblioteca Java para gerar facilmente imagens semelhantes ao Excel com estil
 
 ### Exemplo Estiloso 2:
 ```
-    List<Object[]> lista = getList();
+    		List<Object[]> lista = getList();
 
 		Font font = new Font("Arial", Font.BOLD, 24);
 
